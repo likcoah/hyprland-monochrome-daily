@@ -1,1 +1,2 @@
-The repository was launched recently, so there is nothing here yet
+### 🚧 Status: Work in Progress
+Task: building rice for daily use.
