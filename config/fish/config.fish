@@ -1,6 +1,6 @@
 if status is-interactive
     if test (tty) = "/dev/tty1"
-        exec hyprland
+        exec start-hyprland
     end
 end
 
