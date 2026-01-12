@@ -7,3 +7,6 @@ end
 function fish_greeting
     # mini-fetch
 end
+
+alias fetch="clear && fastfetch"
+
