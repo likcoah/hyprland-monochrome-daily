@@ -34,6 +34,7 @@ map("n", "K", vim.lsp.buf.hover, opts)
 map("n", "gd", vim.lsp.buf.declaration, opts)
 map("n", "gr", vim.lsp.buf.references, opts)
 map("n", "<leader>rn", vim.lsp.buf.rename, opts)
+map("n", "<leader>dg", vim.diagnostic.open_float, opts)
 
 map("n", "]c", "<cmd>Gitsigns next_hunk<CR>", opts)
 map("n", "[c", "<cmd>Gitsigns prev_hunk<CR>", opts)
