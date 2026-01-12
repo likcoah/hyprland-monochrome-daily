@@ -56,6 +56,7 @@ return {
                     "html",          -- HTML
                     "cssls",         -- CSS
                     "jsonls",        -- JSON
+					"jdtls",
                 },
                 handlers = {
                     function(server_name)
