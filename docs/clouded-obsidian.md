@@ -1,0 +1,1 @@
+Copy `clouded-obsidian.sh` to any directory on your pc, make it executable `chmod +x ./path/to/script/clouded-obsidian.sh` and create symlink on `/usr/local/bin` with command like a `sudo ln -s /absolute/path/to/script/clouded-obsidian.sh /usr/local/bin/clouded-obsidian`
