@@ -8,4 +8,9 @@ while [ ! -d "/home/$USER/cloud/obsidian" ] && [ $COUNTER -lt 60 ]; do
   COUNTER=$((COUNTER+1))
 done
 
-obsidian &
+if [ -d "/home/$USER/cloud/obsidian" ]; then
+    obsidian &
+else
+    notify-send "Mounting error" "Failed to connect to the network storage, obsidian is not running"
+fi
+
