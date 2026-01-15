@@ -44,3 +44,5 @@ map("n", "<leader>rh", "<cmd>Gitsigns reset_hunk<CR>", opts)
 map("n", "<leader>tv", "<cmd>vertical terminal<CR>", opts)
 map("n", "<leader>th", "<cmd>horizontal terminal<CR>", opts)
 map("t", "<Esc>", "<C-\\><C-n>", opts)
+
+map("n", "<leader>cp", "<cmd>CccPick<CR>", opts)
