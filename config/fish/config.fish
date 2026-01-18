@@ -9,4 +9,5 @@ function fish_greeting
 end
 
 alias fetch="clear && fastfetch"
+alias aur="yay --noconfirm"
 
