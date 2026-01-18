@@ -46,3 +46,4 @@ map("n", "<leader>th", "<cmd>horizontal terminal<CR>", opts)
 map("t", "<Esc>", "<C-\\><C-n>", opts)
 
 map("n", "<leader>cp", "<cmd>CccPick<CR>", opts)
+map("n", "<leader>md", "<cmd>RenderMarkdown toggle<CR>", opts)
